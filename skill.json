@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:745838195453:function:4f23a2e9-0f28-43a5-bfb1-13010aa6604f:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:745838195453:function:4f23a2e9-0f28-43a5-bfb1-13010aa6604f:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:745838195453:function:4f23a2e9-0f28-43a5-bfb1-13010aa6604f:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:745838195453:function:4f23a2e9-0f28-43a5-bfb1-13010aa6604f:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "name": "Registration using Alexa Skill"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
